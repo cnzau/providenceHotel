@@ -1,0 +1,33 @@
+
+body {
+    background-color:  #ede7f6;   
+}
+ul {float: right;
+    background-color: blue;
+    color: #ffffff; 
+    
+}
+ul li {
+   display: inline; 
+}
+#header {
+    float: left;
+    color: #ffffff;
+    background-color: blue;
+   
+}
+
+li a{
+    font-size: 30px;
+    padding-right: 24px;
+}
+
+/*
+#navbar {
+    background-color: blue;
+    color: #ffffff;
+    
+    
+}
+   
+*/
