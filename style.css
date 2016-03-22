@@ -1,0 +1,27 @@
+
+.row {
+    clear: both;
+}
+.left {
+    float: left;
+    width: 315px;
+    height: 280px;  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.center {
+    float: left;
+    width: 315px;
+    height: 280px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px; 
+}
+.right {
+    float: right;
+    width: 315px;
+    height: 280px;  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
