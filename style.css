@@ -34,6 +34,10 @@ header {
     width: 100%;
     transition: 0.5s ease;
 }
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .imgDiv {
     display: inline-block;
     width: 300px;
