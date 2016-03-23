@@ -38,6 +38,27 @@ header {
     text-decoration: none;
     color: #ffffff;
 }
+.navbar .logo {
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 70px;
+    width: 200px;
+    padding-top: 0px;
+    transition: 0.5s ease;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 0.95;
+}
+.navbar .logo span {
+    font-size: 20px5
+    letter-spacing: 3px;
+}
+
 .imgDiv {
     display: inline-block;
     width: 300px;
