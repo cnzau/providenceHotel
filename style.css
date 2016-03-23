@@ -174,4 +174,8 @@ header {
 .container {
     margin: 0 auto;     
     max-width: 938px;
+    padding: 2px 5px 5px;
+}
+main {
+    background-color: #BBDEFB;
 }
