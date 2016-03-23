@@ -28,6 +28,12 @@ header {
 
 }
 
+.navbar {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    transition: 0.5s ease;
+}
 .imgDiv {
     display: inline-block;
     width: 300px;
