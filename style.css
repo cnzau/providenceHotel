@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .imgDiv {
     display: inline-block;
     width: 300px;
