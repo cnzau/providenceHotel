@@ -17,6 +17,17 @@ header {
     width: 100%;
     z-index: 10;
 }
+@supports (position: sticky) {
+  body {
+    padding-top: 0;
+  }
+
+  header {
+    position: sticky;
+  }
+
+}
+
 .imgDiv {
     display: inline-block;
     width: 300px;
