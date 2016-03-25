@@ -207,3 +207,15 @@ footer p {
 .contacts a {
     color: #ffffff;
 }
+.social-media {
+    clear: both;
+    text-align: center;
+}
+.social-media strong {
+    font-weight: 700;
+}
+.fa {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
