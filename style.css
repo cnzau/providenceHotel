@@ -184,6 +184,15 @@ header {
 main {
     background-color: #E3F2FD;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: blue;
+}
+em {
+    color: red;
+}
+
 footer {
     background-color: #0d47a1;
     padding: 15px;
