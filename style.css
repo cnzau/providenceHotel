@@ -5,7 +5,9 @@ body {
     max-width: 938px;
     margin: 0 auto;
     padding-top: 70px;
-    background-color: #E3F2FD;
+    background-color: #BBDEFB;
+    font-family: 'Lato',sans-serif;
+    font-weight: 150;
 }
 .cover {
     margin-top: -65px;
@@ -37,6 +39,8 @@ header {
 .navbar a {
     text-decoration: none;
     color: #ffffff;
+    text-shadow: -1px 1px 1px #000;
+    font-weight: 700;
 }
 .navbar .logo {
     float: left;
@@ -166,6 +170,7 @@ header {
     text-align: center;
     color: #757575;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 .galleryDiv {
     margin: 0 auto;
@@ -177,5 +182,28 @@ header {
     padding: 2px 5px 5px;
 }
 main {
-    background-color: #BBDEFB;
+    background-color: #E3F2FD;
+}
+footer {
+    background-color: #0d47a1;
+    padding: 15px;
+    color: #ffffff;
+}
+footer p {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+}
+.location {
+    display: inline-block;
+    float: left;
+    width: 300px;
+}
+.contacts {
+    display: inline-block;
+    float: right;
+    width: 300px;
+}
+.contacts a {
+    color: #ffffff;
 }
