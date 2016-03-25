@@ -197,15 +197,19 @@ footer p {
 .location {
     display: inline-block;
     float: left;
-    width: 300px;
+    width: 150px;
 }
 .contacts {
     display: inline-block;
     float: right;
-    width: 300px;
+    width: 225px;
 }
 .contacts a {
     color: #ffffff;
+}
+.contacts span {
+    float: right;
+    padding-right: 5px;
 }
 .social-media {
     clear: both;
