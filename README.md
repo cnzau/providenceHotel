@@ -1,2 +1,2 @@
 # Providence Hotel
-This is a website for Providence Hotel
+Welcome to the website for Providence Hotel.
