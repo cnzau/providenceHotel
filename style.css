@@ -244,3 +244,11 @@ footer p {
     display: inline-block;
     margin: 15px;
 }
+#note {
+    height: 100px;
+    width: 400px;
+}
+.f_rp {
+    width: 80px;
+    border: none; 
+}
