@@ -232,3 +232,15 @@ footer p {
     padding-left: 10px;
     padding-right: 10px;
 }
+.f_div1 {
+    display: inline-block;
+    width: 450px;
+    margin: 15px;
+}
+.f_input {
+    width: 400px;
+}
+.f_div2 {
+    display: inline-block;
+    margin: 15px;
+}
