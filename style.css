@@ -239,13 +239,14 @@ footer p {
 }
 .f_input {
     width: 400px;
+    margin-bottom: 5px;
 }
 .f_div2 {
     display: inline-block;
     margin: 15px;
 }
 #note {
-    height: 100px;
+    height: 110px;
     width: 400px;
 }
 .f_rp {
