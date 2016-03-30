@@ -7,7 +7,7 @@ body {
     padding-top: 70px;
     background-color: #2196F3;
     font-family: 'Lato',sans-serif;
-    font-weight: 150;
+    font-weight: 400;
 }
 .cover {
     margin-top: -65px;
@@ -254,4 +254,21 @@ footer p {
 }
 .f_dt {
     width: 225px;
+}
+#room {
+    font-weight: 300;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.submit {
+    text-align: center;
+    margin: 20px;
+}
+#submit {
+    border-radius: 5px;
+    background-color: blue;
+    color: #FFFFFF;
+    height: 30px;
+    font-weight: 700;
+    font-size: 18px;
 }
