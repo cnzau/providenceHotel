@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Providence</title>
+    <!--link to fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display+SC:700italic' rel='stylesheet' type='text/css'>
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,900" rel="stylesheet">
+    <!--jquery library to support on scroll function-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app2.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Providence <span>Hotel</span></a>
+            </div>
+            <ul class="nav">
+                <li class="item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="item">
+                    <a id="active" href="reservation.html">Reservation</a>
+                </li>
+                <li class="item">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="item">
+                    <a href="offer.html">Offer</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="f_div1">
+                    <label>Name</label>
+                    <br />
+                    <input type="text" class="f_input" id="name" placeholder="Name">
+                    <br />
+                    <label>Tel</label>
+                    <br />
+                    <input type="text" class="f_input" id="tel" placeholder="0701234567">
+                    <br />
+                    <label>Occupation</label>
+                    <br />
+                    <input type="text" class="f_input" id="occ" placeholder="System analyst">
+                </div>
+                <div class="f_div2">
+                    <label>NOTE: (optional)</label>
+                    <br />
+                    <textarea class="form-control" id="note"></textarea>
+                </div>
+                <table>
+                    <tr>
+                        <th>Reservations</th>
+                        <th>No. of Rooms/People</th>
+                        <th>Check In</th>
+                        <th>Check Out</th>
+                    </tr>
+                    <tr>
+                        <td>Accomodation</td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="cvd" name="cvd">City View Double</td>
+                        <td>
+                            <input type="number" class="f_rp" id="cvdRooms" name="cvdRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvdIn" name="cvdIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvdOut" name="cvdOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="cvk" name="cvk">City View King</td>
+                        <td>
+                            <input type="number" class="f_rp" id="cvkRooms" name="cvkRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvkIn" name="cvkIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvkOut" name="cvkOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="cvsk" name="cvsk">City View Spa King</td>
+                        <td>
+                            <input type="number" class="f_rp" id="cvskRooms" name="cvskRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvskIn" name="cvskIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="cvskOut" name="cvskOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="ovd" name="ovd">Ocean View Double</td>
+                        <td>
+                            <input type="number" class="f_rp" id="ovdRooms" name="ovdRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovdIn" name="ovdIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovdOut" name="ovdOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="ovk" name="ovk">Ocean View King</td>
+                        <td>
+                            <input type="number" class="f_rp" id="ovkRooms" name="ovkRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovkIn" name="ovkIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovkOut" name="ovkOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="ovsk" name="ovsk">Ocean View Spa King</td>
+                        <td>
+                            <input type="number" class="f_rp" id="ovskRooms" name="ovskRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovskIn" name="ovskIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="ovskOut" name="ovskOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="gr" name="gr">Guest Room</td>
+                        <td>
+                            <input type="number" class="f_rp" id="grkRooms" name="grkRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="grIn" name="grIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="grOut" name="grOut">
+                        </td>
+                    </tr>
+                    <tr id="room">
+                        <td>&nbsp;&nbsp;
+                            <input type="checkbox" id="ada" name="ada">ADA Guest Room(Disabled)</td>
+                        <td>
+                            <input type="number" class="f_rp" id="adaRooms" name="adaRooms">Rooms</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="adaIn" name="adaIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="adaOut" name="adaOut">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="conf" name="conf">Conference</td>
+                        <td>
+                            <input type="number" class="f_rp" id="confCapacity" name="confCapacity">People</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="confIn" name="confIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="confOut" name="confOut">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="wed" name="wed">Wedding</td>
+                        <td>
+                            <input type="number" class="f_rp" id="wedCapacity" name="wedCapacity">People</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="wedIn" name="wedIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="wedOut" name="wedOut">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="spa" name="spa">Spa</td>
+                        <td>
+                            <input type="number" class="f_rp" id="spaCapacity" name="spaCapacity">People</td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="spaIn" name="spaIn">
+                        </td>
+                        <td>
+                            <input type="datetime-local" class="f_dt" id="spaOut" name="spaOut">
+                        </td>
+                    </tr>
+                </table>
+                <div class="submit">
+                    <input id="submit" type="submit" value="Reserve">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="location">
+            <strong>Providence Hotel.</strong>
+            <br /> Ngong Lane Plaza.
+            <br /> Ngong Ln.
+            <br /> Nairobi, Kenya
+            <br />
+        </div>
+        <div class="contacts">
+            <strong>Email: &nbsp;</strong>
+            <a href="mailto:info@providence-h.com">info@providence-h.com</a>
+            <br />
+            <strong>Phone:</strong>
+            <span>+254-722-243-021 <br /> +254-718-744-544</span>
+        </div>
+        <div class="social-media">
+            <strong>Social Media</strong>
+            <br />
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>&copy;2016 - Providence Hotel.</p>
+    </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
